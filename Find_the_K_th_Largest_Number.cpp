@@ -9,33 +9,34 @@
 #define vii vector<ii>
 #define lli long long int
 #define INF 1000000000
+
 const double PI = 3.141592653589793238460;
 typedef std::complex<double> Complex;
 typedef std::valarray<Complex> CArray;
 
 using namespace std;
 
-//Q .Given an integer, reverse the digits. Do not convert the integer into a string and reverse it.
+//Q.Find the k-th largest number in a sequence of unsorted numbers.
 
-int solve(int n)
+int solve(int arr[], int n, int k)
 {
-    int ans = 0;
-    int isNeg = (n < 0) ? -1 : 1;
-    if (n < 0)
-        n = n * (-1);
-    while (n > 0)
+    priority_queue<int, vector<int>, greater<int>> pq;
+    for (int i = 0; i < n; i++)
     {
-        ans = ans * 10;
-        ans += n % 10;
-        n = n / 10;
+        pq.push(arr[i]);
+        if (pq.size() > k)
+        {
+            pq.pop();
+        }
     }
-
-    return ans * isNeg;
+    return pq.top();
 }
+
 int main()
 {
-    int n;
-    cin >> n;
-    cout << solve(n);
+    int arr[] = {8, 7, 2, 3, 4, 1, 5, 6, 9, 0};
+    int n = sizeof(arr) / sizeof(arr[0]);
+    int k = 3;
+    cout << solve(arr, n, k) << "\n";
     return 0;
 }
