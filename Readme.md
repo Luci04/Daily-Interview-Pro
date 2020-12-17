@@ -20,10 +20,10 @@
 
 ## Contributors
 
-| Name                                                                                                                    | Country | Programming Language |
-| ----------------------------------------------------------------------------------------------------------------------- | ------- | -------------------- |
-| [Avinash Shukla](https://github.com/luci04/) <br> <img src="https://github.com/luci04.png" width="100" height="100">    | India   | C++                  |
-| [Anshuman Pandey](https://github.com/crist04/) <br> <img src="https://github.com/crist04.png" width="100" height="100"> | India   | C++                  |
-| [Akash Lilhare](https://github.com/akashlilhare) <br> <img src="https://github.com/akashlilhare.png" width="100" height="100"> | India   | C++           |
-| [TheMech4nic](https://github.com/TheMech4nic) <br> <img src="https://github.com/TheMech4nic.png" width="100" height="100"> | India   | C++               |
-| [Shrey-dev07](https://github.com/Shrey-dev07) <br> <img src="https://github.com/Shrey-dev07.png" width="100" height="100"> | India   | C++                  |
+| Name                                                                                                                           | Country | Programming Language |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------- | -------------------- |
+| [Avinash Shukla](https://github.com/luci04/) <br> <img src="https://github.com/luci04.png" width="100" height="100">           | India   | C++                  |
+| [Anshuman Pandey](https://github.com/crist04/) <br> <img src="https://github.com/crist04.png" width="100" height="100">        | India   | C++                  |
+| [Akash Lilhare](https://github.com/akashlilhare) <br> <img src="https://github.com/akashlilhare.png" width="100" height="100"> | India   | C++                  |
+| [TheMech4nic](https://github.com/TheMech4nic) <br> <img src="https://github.com/TheMech4nic.png" width="100" height="100">     | India   | C++                  |
+| [Shrey-dev07](https://github.com/Shrey-dev07) <br> <img src="https://github.com/Shrey-dev07.png" width="100" height="100">     | India   | C++                  |
